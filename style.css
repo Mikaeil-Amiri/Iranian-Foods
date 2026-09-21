@@ -1,0 +1,38 @@
+:root {
+  --ivory: #ffffff;
+  --indigo: #1B2A42;
+  --turquoise: #000000;
+  --clay: #000000;
+  --gold: #000000;
+  --ink: #241C17;
+  --paper: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: 'Work Sans', 'Segoe UI', sans-serif;
+  font-size: 21px;
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 600;
+  margin: 0 0 14px 0;
+  color: var(--indigo);
+}
+
+p.info {
+  max-width: 60ch;
+  color: #3c332a;
+}
+
+a {
+  color: var(--clay);
+}
