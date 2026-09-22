@@ -124,3 +124,15 @@ a {
   margin-bottom: 6px;
   font-style: italic;
 }
+
+/* ---------- Plain text block ---------- */
+
+.text-block {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 6% 50px;
+}
+
+.text-block p {
+  max-width: 70ch;
+}
