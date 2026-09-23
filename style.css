@@ -187,3 +187,21 @@ a {
   font-size: 0.85rem;
   text-align: center;
 }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 760px) {
+  .two-column,
+  .two-column.reverse {
+    flex-direction: column;
+  }
+  .two-column img {
+    width: 100%;
+  }
+  .three-column {
+    flex-direction: column;
+  }
+  .hero-text {
+    font-size: 1.85rem;
+  }
+}
